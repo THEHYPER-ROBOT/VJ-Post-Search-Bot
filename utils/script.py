@@ -3,7 +3,7 @@
 # Ask Doubt on telegram @KingVJ01
 
 class script(object):
-    START = """**ʜᴇʟʟᴏ {} 🤟**
+    START = """**ʜᴇʟʟᴏ {} 🥀**
    
 <b>ɪ ᴀᴍ ᴠᴊ ᴘᴏsᴛ sᴇᴀʀᴄʜ ʙᴏᴛ. ɪ ᴀᴍ ʙᴇsᴛ ᴄʜᴀɴɴᴇʟ ʟɪɴᴋ sᴇᴀʀᴄʜ ʙᴏᴛ! 
 ɪ ᴡɪʟʟ ғɪʟᴛᴇʀ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ ᴘᴏsᴛs ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴀɴᴅ sᴇɴᴅ ɪᴛ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴄʜᴀᴛ ᴡʜᴇɴ sᴏᴍᴇᴏɴᴇ sᴇᴀʀᴄʜ ɪᴛ.</b>"""
@@ -11,7 +11,7 @@ class script(object):
     HELP = """<b>💢 ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ ɪɴ ᴀ ɢʀᴏᴜᴘ
 
 🔻 ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ & ᴄʜᴀɴɴᴇʟ ᴡɪᴛʜ ᴀʟʟ ᴘᴇʀᴍɪssɪᴏɴs. 
-🔻 sᴇɴᴅ /verify ɪɴ ɢʀᴏᴜᴘ & ᴡᴀɪᴛ ғᴏʀ ɪᴛ ᴛᴏ ᴀᴄᴄᴇᴘᴛ ᴏʀ ᴅɪʀᴇᴄᴛʟʏ ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ ᴏᴡɴᴇʀ ᴀғᴛᴇʀ ʀᴇǫᴜᴇsᴛ @VJBots_bot.
+🔻 sᴇɴᴅ /verify ɪɴ ɢʀᴏᴜᴘ & ᴡᴀɪᴛ ғᴏʀ ɪᴛ ᴛᴏ ᴀᴄᴄᴇᴘᴛ ᴏʀ ᴅɪʀᴇᴄᴛʟʏ ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ ᴏᴡɴᴇʀ ᴀғᴛᴇʀ ʀᴇǫᴜᴇsᴛ @THEHYPER_ACX 
 🔻 ᴀғᴛᴇʀ ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴ sᴇɴᴅ /connect ʏᴏᴜʀᴄʜᴀɴɴᴇʟɪᴅ. ( ғᴏʀ ᴍᴜʟᴛɪᴘʟᴇ ᴄʜᴀɴɴᴇʟs ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴍᴜʟᴛɪᴘʟᴇ ᴛɪᴍᴇs )
 🔻 ᴇxᴀᴍᴘʟᴇ : /connect -100xxxxxxxxxx
 
@@ -25,11 +25,11 @@ class script(object):
 
 ♨️ ɢᴇᴛ ᴄᴏɴɴᴇᴄᴛᴇᴅ ᴄʜᴀɴɴᴇʟs ʟɪsᴛ ᴡɪᴛʜ - /connections</b>"""
 
-    ABOUT = """<b>╭━━━━━━━❰ [𝙰𝙱𝙾𝚄𝚃](https://t.me/VJ_Botz) ❱━━━━━━━➣
+    ABOUT = """<b>╭━━━━━━━❰ [𝙰𝙱𝙾𝚄𝚃](https://t.me/ACX_NETWORK) ❱━━━━━━━➣
 
 ┣ ✯ Mʏ Nᴀᴍᴇ:  {}
-┣ ✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/kingvj01'>VJ Bᴏᴛᴢ</a>
-┣ ✯ Lᴀɴɢᴜᴀɢᴇ: <a href='https://www.python.org'>Pʏᴛʜᴏɴ 3</a>
+┣ ✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/THEHYPER_ACX'>𝗧ʜᴇＨʏᴘᴇʀ</a>
+┣ ✯ Gʀᴏᴜᴘ: <a href='https://t.me/ACX_DISCUSSION'>ACX Gʀᴏᴜᴘ</a>
 ┣ ✯ DᴀᴛᴀBᴀsᴇ: <a href='https://cloud.mongodb.com/'>MᴏɴɢᴏDB</a></b>"""
 
     STATS = """<b>My Status 💫
