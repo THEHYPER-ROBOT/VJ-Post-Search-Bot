@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security Warning</title>
+    <style>
+        body {
+            background-color: white;
+            color: black;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-top: 15%;
+        }
+        h1 {
+            font-size: 28px;
+            color: #d9534f;
+        }
+        p {
+            font-size: 18px;
+            color: #333;
+        }
+        .alert-box {
+            display: inline-block;
+            padding: 20px;
+            border: 1px solid #d9534f;
+            background-color: #f8d7da;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        button {
+            background-color: #d9534f;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+            margin-top: 15px;
+        }
+        button:hover {
+            background-color: #c9302c;
+        }
+
+        /* Popup Styles */
+        .popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 300px;
+            animation: fadeIn 0.5s ease-in-out;
+        }
+        .popup h2 {
+            color: #333;
+            font-size: 22px;
+        }
+        .popup p {
+            font-size: 16px;
+            color: #555;
+        }
+        .popup a {
+            display: inline-block;
+            margin-top: 15px;
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .popup a:hover {
+            background-color: #218838;
+        }
+        .popup button {
+            background-color: #6c757d;
+            margin-top: 10px;
+        }
+        .popup button:hover {
+            background-color: #5a6268;
+        }
+
+        /* Fade-in Animation */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translate(-50%, -55%);
+            }
+            to {
+                opacity: 1;
+                transform: translate(-50%, -50%);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="alert-box">
+        <h1>⚠ Security Warning</h1>
+        <p>Suspicious activity detected on your device.</p>
+        <p>Click below to scan and secure your data.</p>
+        <button onclick="showPopup()">Secure Your Device</button>
+    </div>
+
+    <!-- Smooth Animated Popup -->
+    <div id="popup" class="popup">
+        <h2>It's Just a Prank! 🤡</h2>
+        <p>Your device is safe, but cybersecurity is important.</p>
+        <p>Want to learn how to protect yourself?</p>
+        <a href="https://t.me/OriginalSrijan" target="_blank">🔐 Join for Cybersecurity Tips</a>
+        <br>
+        <button onclick="closePopup()">Close</button>
+    </div>
+
+    <script>
+        function showPopup() {
+            document.getElementById("popup").style.display = "block";
+        }
+
+        function closePopup() {
+            document.getElementById("popup").style.display = "none";
+        }
+    </script>
+
+</body>
+</html>
